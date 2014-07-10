@@ -1,0 +1,32 @@
+/* Custom made CSS Styles */
+
+#image_slide_wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#image_slide_wrapper img {
+	left: 0;
+	right: 0;
+	position: absolute;
+	min-width: 100%;
+}
+
+/*.men_cover_photo img{
+	padding-left: 50px;
+}*/
+
+.first-divider {
+	margin: 370px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.second-divider {
+	margin: 100px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.third-divider {
+	margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+

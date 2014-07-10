@@ -1,0 +1,8 @@
+AddType application/x-httpd-php .htm
+
+
+#Remove large symbol URL from pages
+	
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^([A-Za-z0-9-]+)/?$ department.php?cat=$1 [L] 

@@ -1,0 +1,1 @@
+This project contains the necessary files for e-commerce fashion store and the project is in development stage.

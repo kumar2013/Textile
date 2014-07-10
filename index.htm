@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="ashton">
+    <!--<link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">-->
+
+    <title>Responsive Site Testing</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Custom made CSS -->
+	<link href="css/styles.css" rel="stylesheet">
+	<link href = "css/carousel.css" rel = "stylesheet"/>
+	
+  </head>
+  <body>
+	
+	<!-- Include the navigation bar from includes -->
+	<?php include 'includes/navigation_bar.php';?>
+	
+	<!--
+	<div id ="image_slide_wrapper">
+		<div class = "jumbotron">
+			<img src ="images/wallpaper/w3.jpg" class="img-responsive" alt="Responsive image"/>
+		</div>
+	</div>
+	-->
+	
+	<!-- Image slide show using Carousal
+	===========================================================-->
+	<div class = "container">
+	<div id="image_slide_wrapper" class="carousel slide" data-ride="carousel">
+		
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+				<li data-target="#image_slide_wrapper" data-slide-to="0" class="active"></li>
+				<li data-target="#image_slide_wrapper" data-slide-to="1"></li>
+				<li data-target="#image_slide_wrapper" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+				<div class="item active">
+					  <img src="images/wallpaper/w9.jpg" class = "img-responsive"alt="first slide"/>
+					  <div class="carousel-caption">
+							<h2>NEW ARRIVALS<h2>
+							<p>Lorem ipsum is a free text for caption and all other paragraph text. using as a dummy text for web design</p>
+					  </div>
+				</div>
+				<div class = "item">
+						<img src = "images/wallpaper/w10.jpg" class = "img-responsive" alt = "second slide">
+						<div class="carousel-caption">
+							<h2>WINTER COLLECTION<h2>
+							<p>Lorem ipsum is a free text for caption and all other paragraph text. using as a dummy text for web design</p>
+						</div>
+				</div>
+				<div class = "item">
+						<img src = "images/wallpaper/w11.jpg" class = "img-responsive" alt = "third slide">
+						<div class="carousel-caption">
+							<h2>RABAAT ! SALE !<h2>
+							<p>Lorem ipsum is a free text for caption and all other paragraph text. using as a dummy text for web design</p>
+					  </div>
+				</div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#image_slide_wrapper" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+		  </a>
+		  <a class="right carousel-control" href="#image_slide_wrapper" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+		  </a>
+	</div>
+	</div><!-- End-of-image-slideShow -->
+	
+	<hr class = "first-divider">
+	
+	<div class = "container marketing">
+		<div class = "row">
+			<div class = "col-md-4">
+				 <img src="images/180_180/c1.jpg" class="img-circle" height = "180px" width = "180px" alt="first_grid">
+				 <div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a href="#" class="btn btn-default" role="button">View More</a></p>
+				 </div>
+			</div>
+			<div class = "col-md-4">
+				<div class = "center-block">
+				 <img src="images/180_180/c2.jpg" class="img-circle" height = "180px" width = "180px" alt="first_grid">
+				 </div>
+				 <div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a href="#" class="btn btn-default" role="button">View More</a></p>
+				 </div>
+			</div>
+			<div class = "col-md-4">
+				 <img src="images/180_180/c3.jpg" class="img-circle" height = "180px" width = "180px" alt="first_grid">
+				 <div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a href="#" class="btn btn-default" role="button">View More</a></p>
+				 </div>
+			</div>
+		</div>
+	</div>	
+	
+	<hr class = "second-divider">
+	
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-3">
+					<img src="images/300_200/1.jpg" class = "img-responsive"alt="first_grid">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a href="#" class="btn btn-default" role="button">View More</a></p>
+					</div>
+			</div>
+			<div class = "col-md-3">
+					<img src="images/300_200/5.jpg" class = "img-responsive"alt="first_grid">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a href="#" class="btn btn-default" role="button">View More</a></p>
+					</div>
+			</div>
+			<div class = "col-md-3">
+					<img src="images/300_200/7.jpg" class = "img-responsive"alt="first_grid">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a href="#" class="btn btn-default" role="button">View More</a></p>
+					</div>
+			</div>
+			<div class = "col-md-3">
+					<img src="images/300_200/8.jpg" class = "img-responsive"alt="first_grid">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a href="#" class="btn btn-default" role="button">View More</a></p>
+					</div>
+			</div>
+		</div>
+	</div> 
+	
+	<hr class = "third-divider">
+	
+	<!-- FOOTER -->
+      <footer>
+	  <div class = "container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </div>
+	  </footer><!-- End-of-Footer -->
+
+		
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
